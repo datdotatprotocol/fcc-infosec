@@ -1,0 +1,52 @@
+Arguments: 
+  /home/datprotocol/.nvm/versions/node/v12.16.3/bin/node /home/datprotocol/.nvm/versions/node/v12.16.3/bin/yarn install
+
+PATH: 
+  /home/datprotocol/.vscode-server/bin/a5d1cc28bb5da32ec67e86cc50f84c67cc690321/bin:/home/datprotocol/.local/bin:/home/datprotocol/.nvm/versions/node/v12.16.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/dotat/AppData/Local/Microsoft/WindowsApps:/c/Users/dotat/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.npmjs.org. is not in the cert's altnames: DNS:a.sni.fastly.net, DNS:a.sni.global-ssl.fastly.net
+      at Object.checkServerIdentity (tls.js:288:12)
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1484:27)
+      at TLSSocket.emit (events.js:310:20)
+      at TLSSocket._finishInit (_tls_wrap.js:917:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:687:12)
+
+npm manifest: 
+  {
+  	"name": "fcc-infosec-challenges",
+  	"version": "0.0.1",
+  	"description": "fcc backend boilerplate",
+  	"main": "server.js",
+  	"scripts": {
+  		"start": "node myApp.js"
+  	},
+  	"dependencies": {
+  		"express": "^4.14.0"
+  	},
+  	"engines": {
+  		"node": "12.16.3"
+  	},
+  	"keywords": [
+  		"node",
+  		"hyperdev",
+  		"express",
+  		"freecodecamp"
+  	],
+  	"license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
